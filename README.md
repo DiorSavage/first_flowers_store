@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Peony Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Peony Shop — это современный интернет-магазин для продажи цветов. Проект разработан с использованием React и Tailwind CSS, что обеспечивает высокую производительность и удобство использования.
 
-## Available Scripts
+## Описание проекта
 
-In the project directory, you can run:
+Этот проект представляет собой интернет-магазин, где пользователи могут просматривать каталог цветов, добавлять товары в корзину и оформлять заказы. Веб-приложение создано с учетом современных стандартов разработки и поддерживает адаптивный дизайн для различных устройств.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Технологии
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: Библиотека для создания пользовательского интерфейса.
+- **React Router DOM**: Для маршрутизации внутри приложения.
+- **Tailwind CSS**: Утилитарный фреймворк для стилизации.
+- **TypeScript**: Язык программирования, который добавляет статическую типизацию к JavaScript.
+- **SCSS**: Препроцессор CSS для написания более чистого кода, mixin и циклы внутри CSS
+- **use-local-storage**: Хук для работы с локальным хранилищем браузера.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Что реализовано
 
-### `npm run build`
+### 1. **Получение товаров с базы данных**
+   - json-server и файл json для иммитации базы данных
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. **Авторизация и сохранение сесси пользователя**
+   - Сессия сохраняется благодаря localStorage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3. **Использование TailwindCSS совместно с SCSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Установка и запуск
 
-### `npm run eject`
+### 1. Клонирование репозитория
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Склонируйте репозиторий на ваш компьютер:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/DiorSavage/fashion_store_fst.git
+cd fashion_store_fst
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. Запуск
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm install 
+npm run dev
+```
